@@ -1,0 +1,28 @@
+http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5d473d000aee4c3e4034503b
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "Misahael",
+  "subscribedChannel": "Glasgow University Channel"
+}
+
+###
+
+PATCH http://localhost:3000/subscribers/5d473d000aee4c3e4034503b
+Content-Type: application/json 
+
+{
+  "name": "Misahael Alexander"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5d473f1fe699c6038803e05b
